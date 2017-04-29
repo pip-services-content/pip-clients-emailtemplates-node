@@ -117,15 +117,17 @@ client.open(null, null, function(err) {
 
 ### <a name="class1"></a> EmailTemplateV1 class
 
-Represents an inspirational emailtemplate
+Represents an email template
 
 **Properties:**
-- id: string - unique emailtemplate id
-- text: MultiString - emailtemplate text in different languages
-- author: MultiString - name of the emailtemplate author in different languages
+- id: string - unique template id
+- name: string - template name
+- from: string - sender address
+- reply_to: string - sender replyto address
+- subject: MultiString - email subject in different languages
+- text: MultiString - email text body in different languages
+- html: MultiString - email html body in different languages
 - status: string - editing status of the emailtemplate: 'new', 'writing', 'translating', 'completed' (default: 'new')
-- tags: string[] - (optional) search tags that represent topics associated with the emailtemplate
-- all_tags: string[] - (read only) explicit and hash tags in normalized format for searching  
 
 ## <a name="interface"></a> IEmailTemplatesClientV1 interface
 
