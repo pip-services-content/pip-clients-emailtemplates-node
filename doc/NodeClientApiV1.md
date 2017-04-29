@@ -1,6 +1,6 @@
-# Client API (version 1) <br/> EmailTemplates Microservices Client SDK for Node.js
+# Client API (version 1) <br/> Email Templates Microservices Client SDK for Node.js
 
-Node.js client API for EmailTemplates microservice is a thin layer on the top of
+Node.js client API for Email templates microservice is a thin layer on the top of
 communication protocols. It hides details related to specific protocol implementation
 and provides high-level API to access the microservice for simple and productive development.
 
