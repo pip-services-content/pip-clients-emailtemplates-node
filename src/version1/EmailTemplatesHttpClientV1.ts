@@ -11,7 +11,7 @@ import { IEmailTemplatesClientV1 } from './IEmailTemplatesClientV1';
 export class EmailTemplatesHttpClientV1 extends CommandableHttpClient implements IEmailTemplatesClientV1 {       
     
     constructor(config?: any) {
-        super('email_templates');
+        super('v1/email_templates');
 
         if (config != null)
             this.configure(ConfigParams.fromValue(config));
